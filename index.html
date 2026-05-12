@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendell | AI & Engineering Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { background-color: #0f172a; color: #e2e8f0; font-family: 'Inter', sans-serif; }
+        .tech-card {
+            background: linear-gradient(145deg, #1e293b, #0f172a);
+            border: 1px solid #334155;
+            transition: all 0.3s ease;
+        }
+        .tech-card:hover {
+            border-color: #38bdf8;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px -10px rgba(56, 189, 248, 0.3);
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="py-10 px-6 max-w-6xl mx-auto text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">AI 驱动构建成果展示</h1>
+        <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto">
+            专注于智能物流、多模态生成、自动化控制与深度学习算力架构的跨界融合。
+        </p>
+    </header>
+
+    <!-- Project Grid -->
+    <main class="max-w-6xl mx-auto px-6 pb-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Achievement 1: Logistics -->
+            <div class="tech-card p-8 rounded-2xl">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-truck-moving text-sky-400 text-2xl mr-4"></i>
+                    <h2 class="text-2xl font-semibold">智能无人化物流视觉编排</h2>
+                </div>
+                <p class="text-gray-400 mb-6">利用 AI 驱动构建 AGV、AMR 与无人机协同作业的完整分镜脚本库。</p>
+                <ul class="space-y-2 text-sm text-gray-300">
+                    <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 十镜头 JSON 格式电影级分镜</li>
+                    <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 精确修正 SMARTDOCK 物理交互细节</li>
+                    <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 纪录片质感物流视频 Prompts 库</li>
+                </ul>
+            </div>
+
+            <!-- Achievement 2: Multi-modal Content -->
+            <div class="tech-card p-8 rounded-2xl">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-palette text-purple-400 text-2xl mr-4"></i>
+                    <h2 class="text-2xl font-semibold">多模态商业内容与虚拟 IP</h2>
+                </div>
+                <p class="text-gray-400 mb-6">基于大语言模型与多模态工具，完成高质量商业联名视觉设计。</p>
+                <ul class="space-y-2 text-sm text-gray-300">
+                    <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 自创 IP “小一”原型角色构建</li>
+                    <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 精细调校写实感联名海报</li>
+                    <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 数字化营销全链路视觉闭环</li>
+                </ul>
+            </div>
+
+            <!-- Achievement 3: Code & Physics -->
+            <div class="tech-card p-8 rounded-2xl">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-code text-indigo-400 text-2xl mr-4"></i>
+                    <h2 class="text-2xl font-semibold">AI 辅助开发与物理引擎调优</h2>
+                </div>
+                <p class="text-gray-400 mb-6">在 Antigravity IDE 环境下加速 Python 编程与三菱 PLC 逻辑构建。</p>
+                <ul class="space-y-2 text-sm text-gray-300">
+                    <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 深入 Python 底层机制（.pyc）优化</li>
+                    <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 物理运动机制（阻尼、跳跃距离）精调</li>
+                    <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 自动化控制逻辑研发周期大幅缩短</li>
+                </ul>
+            </div>
+
+            <!-- Achievement 4: Hardware -->
+            <div class="tech-card p-8 rounded-2xl">
+                <div class="flex items-center mb-4">
+                    <i class="fas fa-microchip text-rose-400 text-2xl mr-4"></i>
+                    <h2 class="text-2xl font-semibold">深度学习算力架构评估</h2>
+                </div>
+                <p class="text-gray-400 mb-6">基于 NVIDIA H100 与 RTX Pro 6000 的本地 AI 工作站架构规划。</p>
+                <ul class="space-y-2 text-sm text-gray-300">
+                    <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 端云结合 AI 系统硬件选型</li>
+                    <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 深度学习场景性能差异量化对比</li>
+                    <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 高阶 Agent 部署环境前瞻布局</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="text-center py-10 border-t border-slate-800">
+        <p class="text-gray-500 text-sm">Powered by Gemini & Wendell's Engineering Insights</p>
+    </footer>
+
+</body>
+</html>
